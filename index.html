@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>我的部落格</title>
+</head>
+<body>
+    <header>
+        <h1>我的部落格</h1>
+    </header>
+    <main>
+        <section id="posts">
+            <!-- Blog posts will go here -->
+        </section>
+        <section id="add-post">
+            <h2>新增文章</h2>
+            <form id="post-form">
+                <label for="post-title">標題：</label>
+                <input type="text" id="post-title" placeholder="輸入文章標題" required>
+                <label for="post-content">內容：</label>
+                <textarea id="post-content" rows="4" placeholder="輸入文章內容" required></textarea>
+                <button type="submit">新增文章</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 我的部落格</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
